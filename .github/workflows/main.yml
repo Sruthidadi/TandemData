@@ -12,12 +12,12 @@ jobs:
      uses: actions/checkout@v3
    - name: Send JSON Data to First URL
      run: |
-      curl -X POST "https://:bA59DTDxTYSwMlDz0DgxYg@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:0ixua3-STs-W9KZKLsZlNw/streams/AQAAAGFiTrrxyUw9iT0yLHFSIogAAAAA" \
+      curl -X POST https://:rzJBgFMrQo6pGkAw01IUFw@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:0ixua3-STs-W9KZKLsZlNw/streams/AQAAAFkkkdJSTUO3lPOivyt2N0AAAAAA" \
           -H "Content-Type: application/json" \
           -d @stream.json
    - name: Send JSON Data to Second URL
      run: |
-      curl -X POST "https://:CVZRcoFXRQmTeb-mtlnelQ@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:0ixua3-STs-W9KZKLsZlNw/streams/AQAAABrVf4CkpE_crhOHmi_uaNAAAAAA" \
+      curl -X POST "https://:EKhyqK0qQfKBPO5N4a8ApA@eu.tandem.autodesk.com/api/v1/timeseries/models/urn:adsk.dtm:0ixua3-STs-W9KZKLsZlNw/streams/AQAAAKx7MvahxU4iuiRUQOIb9JgAAAAA" \
           -H "Content-Type: application/json" \
           -d @stream.json
 
